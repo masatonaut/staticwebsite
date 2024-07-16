@@ -1,0 +1,281 @@
+/* Header */
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  max-width: 1200px;
+  min-width: 800px;
+  padding: 1%;
+}
+.background {
+  background-image: url("../media/1-1.jpg");
+  padding-top: 0%;
+  background-position: left top;
+  background-position: -10px -50px;
+  background-size: auto 25%;
+  background-repeat: no-repeat;
+}
+
+.background2 {
+  background-image: url("../media/1-1.jpg");
+  background-position: left top;
+  background-position: -10px -50px;
+  background-size: auto 35%;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+}
+.img {
+  max-width: 1200%;
+  height: auto;
+}
+
+.title {
+  display: inline;
+  color: white;
+  font-size: 30px;
+}
+#circle {
+  display: inline;
+  font-size: 28px;
+  margin-top: 1%;
+}
+.header-left {
+  color: white;
+  padding: 0%;
+  text-decoration: none;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+#language {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+nav {
+  margin-left: 40%;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li a {
+  font-size: 13px;
+  color: white;
+  padding: 0px 20px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: none;
+  margin-left: 10%;
+}
+nav li a:hover {
+  color: rgb(226, 41, 41);
+  text-decoration: underline;
+}
+/* Main */
+main {
+  background-color: rgb(255, 255, 255);
+  margin-top: 30%;
+  margin-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+.first-title {
+  text-align: center;
+  font-size: 2em; /* Increase font size to 2em */
+  margin: 0 auto; /* Center text using margin auto */
+}
+
+.image-text-section {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-bottom: 30px;
+}
+
+.image-text-section .text-wrapper {
+  width: 40%;
+  /* padding: 30px; */
+  position: relative;
+  text-align: left;
+}
+
+.image-text-section img {
+  width: 80%;
+  min-width: 10%;
+}
+
+.image-text-section .text-wrapper h2 {
+  color: #333;
+  font-size: 36px;
+}
+
+.image-text-section .text-wrapper p {
+  color: #777;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+.transition-button {
+  display: block;
+  width: 120px;
+  height: 40px;
+  background-color: #f4f4f4;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px; /* add some top-margin */
+}
+
+.image-wrapper {
+  text-align: left;
+}
+.text-image-section {
+  display: flex;
+  margin-top: 2%;
+}
+.image-wrapper2 {
+  margin-right: 3%;
+  text-align: left;
+}
+.text-wrapper2 h2 {
+  margin-left: 3%;
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.text-wrapper2 p {
+  margin-left: 5%;
+  margin-right: 1%;
+  color: #777;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.image-block img {
+  width: 80%;
+  margin-top: 5%;
+}
+.image-block h3 {
+  margin-top: 0%;
+  margin-left: 0%;
+}
+/* image-block */
+.kingof-grid {
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.image-grid {
+  margin-top: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0px;
+}
+.image-block {
+  display: grid;
+  text-align: center;
+  margin: 0 auto;
+}
+.image-block img {
+  margin: 0 auto;
+  position: relative;
+}
+.image-block h3 {
+  position: absolute; /*絶対配置*/
+  color: rgb(255, 253, 253);
+  font-size: 35px;
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 9%;
+  margin-top: 5%;
+  padding-left: 1%;
+  padding-right: 2%;
+  text-align: center;
+}
+.image-block a {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 14%;
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
+  text-decoration: none;
+  background-color: rgb(193, 188, 188);
+  font-size: 12px;
+  padding: 1% 2% 1% 2%;
+  border-radius: 10px 10px 10px 10px;
+}
+.iti {
+  margin-bottom: 7%;
+}
+/* main under */
+.wrapper {
+  background-image: url("../media/take2.webp");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  min-width: 600px;
+  padding-bottom: 3%;
+}
+
+.information-contact-block {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.customer-feedback-block {
+  min-width: 300px;
+  flex: 1;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.639);
+  padding: 10px;
+}
+
+.feedback-type h4 {
+  margin: 0;
+}
+
+.feedback-type label,
+.feedback-description label,
+.name-form label,
+.gender-selection label,
+.consent-form label {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 15px;
+}
+
+.feedback-type input[type="radio"],
+.feedback-description textarea,
+.name-form input[type="text"],
+.gender-selection input[type="radio"],
+.consent-form input[type="checkbox"] {
+  margin-bottom: 10px;
+}
+
+.feedback-description textarea {
+  width: 200px;
+  height: 100px;
+}
+
+.name-form input[type="text"] {
+  width: 45%;
+  margin-right: 10px;
+}
+
+.gender-selection label {
+  margin-right: 10px;
+  text-align: left;
+}
+
+.submit-block button {
+  margin-top: 10px;
+}
+/* itineraries */
+.table3 {
+  background-color: #7777779f;
+  width: 40%;
+  text-align: center;
+}

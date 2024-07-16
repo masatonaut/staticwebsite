@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background">
+      <header>
+        <div class="header-left">
+          <span class="title"
+            ><a href="index.html" style="text-decoration: none; color: white"
+              ><b> VISIT JAPAN </b></a
+            >
+          </span>
+        </div>
+        <div id="circle">&#x26AA;</div>
+        <div id="language">
+          <select id="visitjp">
+            <option value="" disabled selected hidden>Language</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="es">ES</option></select
+          >&#x1F50D;
+        </div>
+
+        <div class="header-right">
+          <nav>
+            <ul>
+              <li><a href="temporary1.html">Visa_Information</a></li>
+              <li><a href="temporary1.html">Practical_Information</a></li>
+              <li><a href="temporary1.html">Deals_&amp;_Packages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="first-title">
+          <h2>Plan your trip</h2>
+        </section>
+        <section class="image-text-section">
+          <div class="image-wrapper">
+            <img src="media/akamonumi2.png" alt="Image" />
+          </div>
+          <div class="text-wrapper">
+            <h2>Popular Activities</h2>
+            <p>
+              In Japan, there are so many interesting and fun activities that it
+              can be hard to choose! Let us help you on your way with these 10
+              popular activities in Japan, there will surely be a few that you
+              haven’t thought of yet that are worth including in your Japan
+              trip!
+            </p>
+            <a href="form_popular.html" class="transition-button">Read More</a>
+          </div>
+        </section>
+
+        <section class="text-image-section">
+          <div class="text-wrapper2">
+            <h2>Travel Tips</h2>
+            <p>
+              Japan is a destination that offers novel, authentic experiences.
+              Read some tips that will help better navigate the local culture
+              and fully enjoy your time in Japan.
+            </p>
+            <a href="form_tips.html" class="transition-button">Read More</a>
+          </div>
+          <div class="image-wrapper2">
+            <img src="media/kawa2.jpeg" alt="Image" />
+          </div>
+        </section>
+        <!-- main under -->
+        <div class="kingof-grid">
+          <div class="image-grid">
+            <div class="image-block">
+              <img src="media/uminoe2.webp" alt="Image 1" />
+              <br /><br />
+              <h3>Art &#38; Culture</h3>
+              <a href="temporary1.html" class="button">Explore</a>
+            </div>
+            <div class="image-block">
+              <img id="akahashi" src="media/akahashi3.jpeg" alt="Image 2" />
+              <h3>
+                Adventure &#38;<br />
+                Sports
+              </h3>
+              <a href="temporary1.html" class="button">Explore</a>
+            </div>
+            <div class="image-block">
+              <img src="media/nihonmon2.jpg" alt="Image 3" />
+              <h3>Accomodation</h3>
+              <a href="temporary1.html" class="button">Explore</a>
+            </div>
+            <div class="iti">
+              <div class="image-block">
+                <img src="media/kyotohito2.jpg" alt="Image 4" />
+                <h3>Itineraries Idea</h3>
+                <a href="form_itineraries.html" class="button">Explore</a>
+              </div>
+            </div>
+            <div class="image-block">
+              <img src="media/akamonumi2.png" alt="Image 5" />
+
+              <h3>History</h3>
+              <a href="temporary1.html" class="button">Explore</a>
+            </div>
+            <div class="image-block">
+              <img src="media/ramen2.jpg" alt="Image 6" />
+
+              <h3>Shopping</h3>
+              <a href="temporary1.html" class="button">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <div class="information-contact-block">
+            <div class="info-left">
+              <div class="customer-feedback-block">
+                <h2>Customer Feedback</h2>
+                <p>
+                  Thank you for taking time to provide feedback. We appreciate
+                  hearing from you and will review your comments carefully.
+                </p>
+                <form
+                  action="mailto:your-email@example.com"
+                  method="post"
+                  enctype="text/plain"
+                >
+                  <div class="feedback-type">
+                    <h4>Feedback Type:</h4>
+                    <label
+                      ><input type="radio" name="comment" value="comments" />
+                      Comments</label
+                    >
+                    <label>
+                      <input
+                        type="radio"
+                        name="feedback-type"
+                        value="suggestions"
+                      />
+                      Suggestions</label
+                    >
+                    <label
+                      ><input type="radio" name="questions" value="questions" />
+                      Questions</label
+                    >
+                  </div>
+                  <div class="feedback-description">
+                    <label for="feedback-description"
+                      >Describe your Feedback:</label
+                    >
+                    <textarea
+                      id="feedback-description"
+                      name="feedback-description"
+                    ></textarea>
+                  </div>
+                  <div class="name-form">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" />
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" />
+                  </div>
+                  <div class="gender-selection">
+                    <label>Gender:</label>
+                    <label
+                      ><input type="radio" name="gender" value="male" />
+                      Male</label
+                    >
+                    <label
+                      ><input type="radio" name="gender" value="female" />
+                      Female</label
+                    >
+                    <label
+                      ><input type="radio" name="gender" value="other" />
+                      Other</label
+                    >
+                  </div>
+                  <div class="consent-form">
+                    <label for="consent-checkbox">
+                      I have read and agreed to the Terms and Conditions
+                      *</label
+                    >
+                    <input
+                      type="checkbox"
+                      id="consent-checkbox"
+                      name="consent-checkbox"
+                    />
+                  </div>
+                  <div class="submit-block">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit Feedback</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

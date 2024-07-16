@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@300;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="background2">
+      <header>
+        <div class="header-left">
+          <span class="title"
+            ><a href="index.html" style="text-decoration: none; color: white"
+              ><b> VISIT JAPAN </b></a
+            >
+          </span>
+        </div>
+        <div id="circle">&#x26AA;</div>
+        <div id="language">
+          <select id="visitjp">
+            <option value="" disabled selected hidden>Language</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="es">ES</option></select
+          >&#x1F50D;
+        </div>
+
+        <div class="header-right">
+          <nav>
+            <ul>
+              <li><a href="temporary4.html">Visa_Information</a></li>
+              <li><a href="temporary4.html">Practical_Information</a></li>
+              <li><a href="temporary4.html">Deals_&amp;_Packages</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="first-title">
+          <h2>Travel Tips</h2>
+        </section>
+        <div class="block">
+          <h2>1. There is no need to tip</h2>
+          <div class="photo">
+            <img src="media/notip.jpeg" alt="Image notip" />
+          </div>
+          <p>
+            if you tip, the waiter may think you forgot your change and chase
+            you away. For example, if you participate in a guided tour or
+            cooking class, one way to show your appreciation is to bring a small
+            gift from your home country.
+          </p>
+        </div>
+
+        <div class="block">
+          <h2>2. Be polite</h2>
+          <div class="photo">
+            <img src="media/ojigi.jpeg" alt="ojigi" />
+          </div>
+          <p>
+            Foreigners are known to be noisy, especially on public
+            transportation. It is rude to answer your cell phone, and if you are
+            listening to music, please turn down the volume. Blowing your nose
+            in public is more rude than sniffing, and avoid eating on the go.
+          </p>
+        </div>
+
+        <div class="block">
+          <h2>3. Buy a Suica or Pasmo card</h2>
+          <div class="photo">
+            <img src="media/suika.jpeg" alt="suika" />
+          </div>
+          <p>
+            The prepaid card, similar to the Oyster card in London, can be used
+            on most subways and buses and can be recharged in the station. A
+            small deposit must be paid, most of which will be returned if the
+            card is surrendered at the end of the trip. The card can be cheaper
+            than a paper ticket, especially on trips with transfers. Also, with
+            a card, you don't have to stop and wait in line to print a ticket
+            every time you get on a train.
+          </p>
+        </div>
+
+        <div class="wrapper">
+          <div class="information-contact-block">
+            <div class="info-left">
+              <div class="customer-feedback-block">
+                <h2>Customer Feedback</h2>
+                <p>
+                  Thank you for taking time to provide feedback. We appreciate
+                  hearing from you and will review your comments carefully.
+                </p>
+                <form
+                  action="mailto:your-email@example.com"
+                  method="post"
+                  enctype="text/plain"
+                >
+                  <div class="feedback-type">
+                    <h4>Feedback Type:</h4>
+                    <label
+                      ><input type="radio" name="comment" value="comments" />
+                      Comments</label
+                    >
+                    <label>
+                      <input
+                        type="radio"
+                        name="feedback-type"
+                        value="suggestions"
+                      />
+                      Suggestions</label
+                    >
+                    <label
+                      ><input type="radio" name="questions" value="questions" />
+                      Questions</label
+                    >
+                  </div>
+                  <div class="feedback-description">
+                    <label for="feedback-description"
+                      >Describe your Feedback:</label
+                    >
+                    <textarea
+                      id="feedback-description"
+                      name="feedback-description"
+                    ></textarea>
+                  </div>
+                  <div class="name-form">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" />
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" />
+                  </div>
+                  <div class="gender-selection">
+                    <label>Gender:</label>
+                    <label
+                      ><input type="radio" name="gender" value="male" />
+                      Male</label
+                    >
+                    <label
+                      ><input type="radio" name="gender" value="female" />
+                      Female</label
+                    >
+                    <label
+                      ><input type="radio" name="gender" value="other" />
+                      Other</label
+                    >
+                  </div>
+                  <div class="consent-form">
+                    <label for="consent-checkbox">
+                      I have read and agreed to the Terms and Conditions
+                      *</label
+                    >
+                    <input
+                      type="checkbox"
+                      id="consent-checkbox"
+                      name="consent-checkbox"
+                    />
+                  </div>
+                  <div class="submit-block">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit Feedback</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
